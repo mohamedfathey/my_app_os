@@ -15,7 +15,7 @@ jobs:
       - name: "just dream"
         run: ls
       
-      - user: actions/checkout@v3
+      - uses: actions/checkout@v3
       
       - name : "you can"
         run : ls
