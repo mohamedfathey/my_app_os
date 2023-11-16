@@ -24,4 +24,4 @@ jobs:
         run: docker build -t m7mdfathey25/myimage .
 
       - name: "docker push"
-        run: docker push -it m7mdfathey25/myimage
+        run: docker push m7mdfathey25/myimage
