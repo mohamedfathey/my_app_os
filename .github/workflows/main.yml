@@ -9,7 +9,7 @@ on:
 
 jobs:
   bulid: 
-     runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     
     
     steps:
@@ -18,8 +18,8 @@ jobs:
       
       - uses: actions/checkout@v3
       
-      - name : "you can"
-        run : ls
+      - name: "you can"
+        run: ls
 
 
 
