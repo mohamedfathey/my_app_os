@@ -4,7 +4,7 @@ WORKDIR /application
 
 COPY  mohamed.java .
 
-RUN javac Main.java
+RUN javac mohamed.java
 
-CMD java Main
+CMD java mohamed
 
