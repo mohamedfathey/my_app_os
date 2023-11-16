@@ -9,8 +9,9 @@ on:
 
 jobs:
   bulid: 
-    run-on: ubuntu-latest
-
+     runs-on: ubuntu-latest
+    
+    
     steps:
       - name: "just dream"
         run: ls
