@@ -1,9 +1,15 @@
-FROM openjdk
+# FROM openjdk
 
-WORKDIR /application
+# WORKDIR /application
 
-COPY  mohamed.java .
+# COPY  mohamed.java .
 
-RUN javac mohamed.java
+# RUN javac Main.java
 
-CMD java mohamed
+# CMD java mohamed
+
+FROM openjdk:11
+COPY . /usr/src/myapp
+WORKDIR /usr/src/myapp/src
+RUN javac Main.java
+CMD ["java", "Main"]
